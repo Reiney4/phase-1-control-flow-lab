@@ -1,8 +1,7 @@
 describe('index.js', function () {
-  describe('scuberGreetingForFeet()', function () {
-    it('gives customers a free sample if the ride is less than or equal to 400 feet', function () {
+  describe('scuberGreetingForFeet()', function () {400 feet', function () {
       expect(scuberGreetingForFeet(199)).to.equal('This one is on me!');
-    });
+t<    it('gives customers a free sample if the ride is less than or equal to 
 
     it('charges 30 dollars for a distance over 2000 feet', function () {
       expect(scuberGreetingForFeet(2001)).to.equal('I will gladly take your thirty bucks.');
@@ -12,8 +11,8 @@ describe('index.js', function () {
       expect(scuberGreetingForFeet(2501)).to.equal('No can do.');
     });
   });
-
-  describe('ternaryCheckCity()', function () {
+'ternaryCheckCity()', function ()
+  describe( {
     it('returns "Ok, sounds good." when the city is NYC', function () {
       expect(ternaryCheckCity('NYC')).to.equal('Ok, sounds good.');
     });
@@ -25,7 +24,7 @@ describe('index.js', function () {
 
   describe('switchOnCharmFromTip()', function () {
     it('should return "Thank you so much." if the tip is generous', function () {
-      expect(switchOnCharmFromTip('generous')).to.equal('Thank you so much.');
+      expect(switchOnCharmFromTip('generous')).to.equal('Thank you so much.'   );
     });
 
     it('should return "Thank you." if the tip is not as generous', function () {
